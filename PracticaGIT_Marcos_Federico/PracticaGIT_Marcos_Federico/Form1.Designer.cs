@@ -44,6 +44,7 @@
             this.botton1.TabIndex = 0;
             this.botton1.Text = "Calcular";
             this.botton1.UseVisualStyleBackColor = true;
+            this.botton1.Click += new System.EventHandler(btnCalcularPrecio_Click);
             // 
             // chkUrgente
             // 

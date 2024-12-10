@@ -19,12 +19,12 @@ namespace PracticaGIT_Marcos_Federico
         private void btnCalcularPrecio_Click(object sender, EventArgs e)
         {
             string textoTelegrama;
-            char tipoTelegrama = ' ';
+            char tipoTelegrama = 'o';
             int numPalabras = 0;
             double coste;
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
-            // telegrama urgente?
+            // telegrama urgente
             if (chkUrgente.Checked)
             {
                 tipoTelegrama = 'u';
