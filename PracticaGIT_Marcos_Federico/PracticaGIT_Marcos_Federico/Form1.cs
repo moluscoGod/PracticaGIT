@@ -24,7 +24,7 @@ namespace PracticaGIT_Marcos_Federico
             double coste;
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
-            // telegrama urgente?
+            // telegrama urgente
             if (chkUrgente.Checked)
             {
                 tipoTelegrama = 'u';
